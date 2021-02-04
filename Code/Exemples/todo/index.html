@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
   <title>Todo</title>
 </head>
 
@@ -12,20 +13,18 @@
     <h1>Vanilla Javascript Todo</h1>
   </header>
   <form>
-    <input type="text" placeholder="Enter..." class="todo-input" />
-    <button class="todo-button" type="submit">
+    <input type="text" placeholder=" Enter...">
+    <button class="todo-button" type="submit">+
     </button>
     <div class="select">
-      <select name="todos" class="filter-todo">
-        <option value="all">Toutes</option>
+      <select name="todos">
+        <option value="all"> Toutes</option>
         <option value="completed">Complétée</option>
         <option value="uncompleted">À Faire</option>
       </select>
     </div>
   </form>
-  <div class="todo-container">
-    <ul class="todo-list"></ul>
-  </div>
+
 </body>
 
 </html>
