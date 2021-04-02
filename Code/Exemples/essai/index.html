@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>SWAG</title>
+</head>
+
+<body>
+
+  <div class="flex bg-white">
+
+    <nav id="nav-content" class="hidden h-screen bg-blue-900 md:block">
+      <div>
+        <img class="m-auto w-24 mt-6"
+          src="https://mythemestore.com/beehive-preview/wp-content/themes/beehive/assets/images/logo-vertical.svg"
+          alt="logo">
+      </div>
+      <main class="bg-white w-60 md:w-72 h-auto p-8 rounded-xl rounded-b-3xl shadow-2xl mt-5 mx-6 mb-6">
+        <section>
+          <p class="text-gray-600 text-center text-xl font-bold">Loging Now</p>
+        </section>
+
+        <section class="mt-4">
+          <form class="flex flex-col" method="POST" action="#">
+
+            <div class="mb-2">
+              <input type="text" id="email" placeholder="Email or username"
+                class="bg-white rounded-full w-full h-10 focus:outline-none px-3 border-gray-100 border-2 text-center" />
+            </div>
+            <div class="mb-4">
+              <input type="password" id="password" placeholder="Password…"
+                class="bg-white rounded-full w-full h-10 focus:outline-none px-3 border-gray-100 border-2 text-center" />
+            </div>
+
+            <button
+              class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 rounded-full shadow-lg hover:shadow-xl transition duration-200"
+              type="submit">
+              Log in
+            </button>
+            <div class="flex justify-end">
+              <a href="#" class="m-auto text-sm text-purple-600 hover:text-purple-700 hover:underline mt-3">Signup is
+                disabled</a>
+            </div>
+          </form>
+        </section>
+      </main>
+      <div class="grid grid-cols-2 gap-4 text-center w-full m-auto bg-gray-100 mt-10">
+        <li class="flex h-10 p-2 ml-auto mt-8 text-gray-500 rounded hover:text-purple-500"><svg class="w-6 h-6"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+            </path>
+          </svg><a class="ml-3" href="#">Team</a></li>
+        <li class="flex h-10 p-2 mr-auto mt-8 text-gray-500 rounded hover:text-purple-500"><svg class="w-6 h-6"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+            </path>
+          </svg><a class="ml-3" href="#">Team</a></li>
+        <li class="flex h-10 p-2 ml-auto mt-8 text-gray-500 rounded hover:text-purple-500"><svg class="w-6 h-6"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+            </path>
+          </svg><a class="ml-3" href="#">Team</a></li>
+        <li class="flex h-10 p-2 mr-auto mt-8 text-gray-500 rounded hover:text-purple-500"><svg class="w-6 h-6"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+            </path>
+          </svg><a class="ml-3" href="#">Team</a></li>
+        <li class="flex h-10 p-2 ml-auto mt-8 text-gray-500 rounded hover:text-purple-500"><svg class="w-6 h-6"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+            </path>
+          </svg><a class="ml-3" href="#">Team</a></li>
+        <li class="flex h-10 p-2 mr-auto mt-8 text-gray-500 rounded hover:text-purple-500"><svg class="w-6 h-6"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+            </path>
+          </svg><a class="ml-3" href="#">Team</a></li>
+        <li class="flex h-10 p-2 ml-auto mt-8 text-gray-500 rounded hover:text-purple-500"><svg class="w-6 h-6"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+            </path>
+          </svg><a class="ml-3" href="#">Team</a></li>
+        <li class="flex h-10 p-2 mr-auto mt-8 text-gray-500 rounded hover:text-purple-500"><svg class="w-6 h-6"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+            </path>
+          </svg><a class="ml-3" href="#">Team</a></li>
+
+      </div>
+    </nav>
+
+    <div class="block md:hidden ">
+      <button id="nav-toggle"
+        class="flex items-center w-14 h-14 px-3 py-2 text-gray-200 bg-blue-700 border rounded hover:text-gray-100">
+        <svg class="w-6 m-auto fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </button>
+    </div>
+
+    <div class="w-full">
+      <input class="w-full h-14 px-3 py-2 border rounded shadow-lg appearance-none text-grey-darker"
+        placeholder="Search ...">
+    </div>
+
+  </div>
+
+
+
+
+  <script>
+    //Javascript to toggle the menu
+    document.getElementById('nav-toggle').onclick = function () {
+      document.getElementById("nav-content").classList.toggle("hidden");
+    }
+  </script>
+</body>
+
+</html>
