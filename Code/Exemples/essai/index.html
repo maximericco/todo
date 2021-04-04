@@ -111,7 +111,7 @@
     <div class="w-full border-b">
       <input class="w-full h-14 px-3 appearance-none text-grey-darker" placeholder="Search ...">
     </div>
-    <div class="w-full h-14 bg-white flex items-center justify-end">
+    <div id="essai" class=" w-full h-14 bg-white flex items-center justify-end">
       <ul class="flex mr-4 md:mr-8">
         <li class="p-2"><a href="#"><svg class="w-5 rounded-full" version="1.1" id="fi_15946"
               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -138,8 +138,11 @@
     //Javascript to toggle the menu
     document.getElementById('nav-toggle').onclick = function () {
       document.getElementById("nav-content").classList.toggle("hidden");
+      document.getElementById("essai").classList.toggle("hidden");
+
     }
   </script>
+
 </body>
 
 </html>
