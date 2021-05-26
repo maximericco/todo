@@ -1,0 +1,61 @@
+body{
+  background-image: url("https://www.fantasyanime.com/mana/images/sompaper10-1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  height: 100vh;
+  overflow: hidden;
+}
+.app {
+  display: grid;
+  width: 720px;
+  margin: 0 auto;
+  margin-top: 150px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100px repeat(5, 60px);
+  grid-template-areas:
+    "res res res res"
+    "7 8 9 reset"
+    "4 5 6 reset"
+    "1 2 3 reset"
+    "0 dot plus minus"
+    "equal equal times div";
+  border: 2px solid teal;
+  border-radius: 4px;
+}
+h3 {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:rgb(179, 218, 179);
+  margin: 0px 0px;
+  font-size: 2.5rem;
+  grid-area: res;
+}
+button {
+  background: rgb(0, 70, 21);
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: rgb(38, 202, 73);
+}
+.btn , button{
+  font-size: 21px;
+}
+#equal {
+  grid-area: equal;
+}
+#clear {
+  grid-area: reset;
+}
+
+
+@media screen and (max-width: 750px){
+  .app{
+    width:300px;
+  }
+} 
